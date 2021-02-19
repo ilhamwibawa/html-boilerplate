@@ -1,0 +1,12 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font-family: $text-font-stack;
+  font-size: $base-font-size;
+
+  @media screen and (max-width: map-get($breakpoints, medium)) {
+    font-size: $base-font-size-mobile;
+  }
+}

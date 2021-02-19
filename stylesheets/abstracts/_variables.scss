@@ -1,0 +1,158 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+
+
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+// base font size
+$base-font-size: 16px;
+$base-font-size-mobile: 14px;
+
+// Semantic colors
+$color-primary-100: #D6E4FF;
+$color-primary-200: #ADC8FF;
+$color-primary-300: #84A9FF;
+$color-primary-400: #6690FF;
+$color-primary-500: #3366FF;
+$color-primary-600: #254EDB;
+$color-primary-700: #1939B7;
+$color-primary-800: #102693;
+$color-primary-900: #091A7A;
+$color-primary-transparent-100: rgba(51, 102, 255, 0.08);
+$color-primary-transparent-200: rgba(51, 102, 255, 0.16);
+$color-primary-transparent-300: rgba(51, 102, 255, 0.24);
+$color-primary-transparent-400: rgba(51, 102, 255, 0.32);
+$color-primary-transparent-500: rgba(51, 102, 255, 0.4);
+$color-primary-transparent-600: rgba(51, 102, 255, 0.48);
+$color-success-100: #DAFBD4;
+$color-success-200: #AFF7AB;
+$color-success-300: #7DE982;
+$color-success-400: #59D36A;
+$color-success-500: #2AB74B;
+$color-success-600: #1E9D48;
+$color-success-700: #158344;
+$color-success-800: #0D6A3D;
+$color-success-900: #085739;
+$color-success-transparent-100: rgba(42, 183, 75, 0.08);
+$color-success-transparent-200: rgba(42, 183, 75, 0.16);
+$color-success-transparent-300: rgba(42, 183, 75, 0.24);
+$color-success-transparent-400: rgba(42, 183, 75, 0.32);
+$color-success-transparent-500: rgba(42, 183, 75, 0.4);
+$color-success-transparent-600: rgba(42, 183, 75, 0.48);
+$color-info-100: #DBEEFE;
+$color-info-200: #B8DCFE;
+$color-info-300: #95C5FD;
+$color-info-400: #7AB1FB;
+$color-info-500: #4F91F9;
+$color-info-600: #3970D6;
+$color-info-700: #2752B3;
+$color-info-800: #193990;
+$color-info-900: #0F2777;
+$color-info-transparent-100: rgba(79, 145, 249, 0.08);
+$color-info-transparent-200: rgba(79, 145, 249, 0.16);
+$color-info-transparent-300: rgba(79, 145, 249, 0.24);
+$color-info-transparent-400: rgba(79, 145, 249, 0.32);
+$color-info-transparent-500: rgba(79, 145, 249, 0.4);
+$color-info-transparent-600: rgba(79, 145, 249, 0.48);
+$color-warning-100: #FFFCD2;
+$color-warning-200: #FFF9A6;
+$color-warning-300: #FFF579;
+$color-warning-400: #FFF258;
+$color-warning-500: #FFEC21;
+$color-warning-600: #DBC818;
+$color-warning-700: #B7A610;
+$color-warning-800: #93840A;
+$color-warning-900: #7A6C06;
+$color-warning-transparent-100: rgba(255, 236, 33, 0.08);
+$color-warning-transparent-200: rgba(255, 236, 33, 0.16);
+$color-warning-transparent-300: rgba(255, 236, 33, 0.24);
+$color-warning-transparent-400: rgba(255, 236, 33, 0.32);
+$color-warning-transparent-500: rgba(255, 236, 33, 0.4);
+$color-warning-transparent-600: rgba(255, 236, 33, 0.48);
+$color-danger-100: #FFE7D6;
+$color-danger-200: #FFC9AD;
+$color-danger-300: #FFA483;
+$color-danger-400: #FF8165;
+$color-danger-500: #FF4732;
+$color-danger-600: #DB2824;
+$color-danger-700: #B71922;
+$color-danger-800: #930F22;
+$color-danger-900: #7A0922;
+$color-danger-transparent-100: rgba(255, 71, 50, 0.08);
+$color-danger-transparent-200: rgba(255, 71, 50, 0.16);
+$color-danger-transparent-300: rgba(255, 71, 50, 0.24);
+$color-danger-transparent-400: rgba(255, 71, 50, 0.32);
+$color-danger-transparent-500: rgba(255, 71, 50, 0.4);
+$color-danger-transparent-600: rgba(255, 71, 50, 0.48);
+
+$theme-colors: (
+  'primary': $color-primary-500,
+  'success': $color-success-500,
+  'info': $color-info-500,
+  'warning': $color-warning-500,
+  'danger': $color-danger-500,
+);
+
+
+
+/// Copy text $color
+/// @type Color
+$text-color: rgb(34, 34, 34) !default;
+
+/// Main brand color
+/// @type Color
+$brand-color: $color-primary-500 !default;
+
+/// Light grey
+/// @type Color
+$light-grey: rgb(237, 237, 237) !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: rgb(153, 153, 153) !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: rgb(68, 68, 68) !default;
+
+
+
+
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+
+
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
+
+
+
+
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
